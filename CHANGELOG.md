@@ -1,39 +1,29 @@
-## 0.4.2 (2022-11-02)
+# Changelog
 
-- Fix AWS account provisioning.
-- Fix moving AWS account to new OU.
-- Require at least Go 1.18 to build plugin.
-- Update `mcaf_aws_account` docs.
-- Update Go module versions to latest versions.
+All notable changes to this project will be documented in this file.
 
-## 0.4.1 (2022-03-08)
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- Add missing docs for the new CodeBuild resource.
+---
 
-## 0.4.0 (2022-03-08)
+## [0.4.4](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.4.3...v0.4.4) (2026-02-05)
 
-- Add a new resource to trigger CodeBuild pipelines.
+## [0.4.3](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.4.2...v0.4.3) (2025-09-24)
 
-## 0.3.1 (2022-01-27)
+## [0.4.2](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.4.1...v0.4.2) (2022-11-02)
 
-- Build binaries using Go 1.17.
+## [0.4.1](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.4.0...v0.4.1) (2022-03-08)
 
-## 0.3.0 (2022-01-27)
+## [0.4.0](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.3.1...v0.4.0) (2022-03-08)
 
-- Remove all o365 code as it's not needed anymore.
+## [0.3.1](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.3.0...v0.3.1) (2022-01-27)
 
-## 0.2.0 (2020-11-30)
+## [0.3.0](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.2.0...v0.3.0) (2022-01-27)
 
-- Switch to using v2 of the ExoAPI; v1 users will need to stick to 0.1.x versions of this provider.
+## [0.2.0](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.1.1...v0.2.0) (2020-11-30)
 
-## 0.1.2 (2020-11-16)
-
-- Make sure all `mcaf_aws_account` CRUD actions are behind a mutex (only one action can be executed at a time).
-
-## 0.1.1 (2020-10-23)
-
-- Fix bug in `mcaf_aws_account` where failed AWS account provisioning attempt via Service Catalog did not result in a tainted resource.
+## [0.1.1](https://github.com/schubergphilis-ep/terraform-provider-mcaf/compare/v0.1.0...v0.1.1) (2020-10-23)
 
 ## 0.1.0 (2020-09-28)
 
-Initial release.
